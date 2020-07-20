@@ -7,7 +7,7 @@
   font-family: Elementary_Gothic_Scaled;
   src: url(../fonts/Elementary_Gothic_Scaled.ttf);
 }
-* {
+*, html, body {
   font-family: DejaVuSans-ExtraLight;
   color: white;
   background-color: black;
@@ -20,6 +20,10 @@ h3{
 }
 h5{
   font-family: Elementary_Gothic_Scaled;
+}
+.cover-container{
+  max-width:900px;
+  margin: auto;
 }
 .card{
   background-color: black;
